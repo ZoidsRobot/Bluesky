@@ -7,22 +7,22 @@ import os
 from logging.handlers import RotatingFileHandler
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5942726242:AAHFxOSzqMiHhoCCZLiWthk4jPjb_L8Ohvs")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6200871980:AAHjUgcLBGqhC7y6Jk6SrnHW6_dZQxLx9pU")
 
 # API ID Anda dari my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "21640271"))
+APP_ID = int(os.environ.get("APP_ID", "9774346"))
 
 # API Hash Anda dari my.telegram.org
-API_HASH = os.environ.get("API_HASH", "7ba68bba0af72fa77dfe5cf69e5f1562")
+API_HASH = os.environ.get("API_HASH", "a92aed7d74654a563af4b07efbcd88e9")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001547730213"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001422964183"))
 
 # OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "5538834923"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "907544310"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER","BtpmAkun13")
+OWNER = os.environ.get("OWNER","Eror_404_NF")
 
 # Databasenya 
 DB_URI = os.environ.get("DATABASE_URL", "postgres://awxqnloq:A871j1eJ9OHBUwyb00babO3uw3HWd_Dj@castor.db.elephantsql.com/awxqnloq")
@@ -32,9 +32,9 @@ CHANNEL = os.environ.get("CHANNEL", "vvslh_pro")
 GROUP = os.environ.get("GROUP", "vvslh_pro")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL","-1001750445812"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL","-1001855577224"))
 
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001694464041"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001849449088"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -44,7 +44,7 @@ START_MSG = os.environ.get(
     "<b>Hello {first}</b>\n\n<b>Saya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya dari link khusus.</b>",
 )
 try:
-    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "5538834923").split())]
+    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "5146868226").split())]
 except ValueError:
     raise Exception("Daftar Admin Anda tidak berisi User ID Telegram yang valid.")
 
